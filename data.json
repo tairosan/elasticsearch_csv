@@ -1,0 +1,1757 @@
+{
+   "took": 102,
+   "timed_out": false,
+   "_shards": {
+      "total": 77,
+      "successful": 77,
+      "failed": 0
+   },
+   "hits": {
+      "total": 2201763,
+      "max_score": 1,
+      "hits": [
+         {
+            "_index": "stanby_category.20150723",
+            "_type": "job",
+            "_id": "bb8fa2548bc01a2366a736a1f1826592e81787075f1bf160dea4946acc753b48",
+            "_score": 1,
+            "_source": {
+               "learn_update_dt": "2015-07-24T09:46:52.819303",
+               "updateDate": "2015-07-08T17:00:02.690Z",
+               "jobCategory_s": [
+                  "B_092_土木技術者"
+               ],
+               "companyName": null,
+               "jobTitle": "土木技術者",
+               "documentUrl": "https://www.hellowork.go.jp/servicef/130050.do?screenId=130050&action=commonDetailInfo&kyujinNumber1=14030&kyujinNumber2=%0A05334851&kyushokuUmuHidden=2&kyushokuNumber1Hidden=&kyushokuNumber2Hidden=",
+               "siteName": "ハローワーク",
+               "jobSearchContent": "ハローワーク　求人番号 14030-05334851 求人情報の種類 一般（フルタイム） 事業内容 貨物運送業を長年営んできましたが、平成２３年より土木建設業を併設し、平成２５年より建設業に完全移行し、公共事業に携わっている。 職種 土木技術者 雇用形態 正社員 産業 建設業のうち一般土木建築工事業 就業形態 フルタイム 雇用期間 雇用期間の定めなし 年齢 59歳以下 年齢制限の理由 年齢制限禁止について 定年年齢を上限 就業時間 1）08:00～17:00 休憩時間 90分 時間外 あり 月平均20時間 週所定労働日数   賃金 賃金形態 月給 a 基本給（月額平均）又は時間額 160,000円～330,000円 b 定額的に支払われる手当 資格手当 20,000円～40,000円 現場手当 30,000円～50,000円 職務手当 30,000円～50,000円 調整手当 10,000円～30,000円 a + b 250,000円～500,000円 c その他の手当等付記事項 住宅手当 ２０，０００円 家族手当 １２，０００円以上 賞与 あり 前年度実績 年2回 又は 20万円～80万円 休日 日 他 週休二日 その他 年末年始休暇 ６日 夏季休暇 ７日 月１回土曜休み 年間休日数 88日 育児休業取得実績 なし 利用可能な託児所 なし 就業場所 神奈川県横浜市瀬谷区 転勤 なし 従業員数 企業全体:6人 うち就業場所:6人 うち女性:1人 うちパート:0人 加入保険 雇用 労災 健康 厚生 定年制 あり 一律 60歳 再雇用 あり 65歳まで 入居可能住宅   マイカー通勤 可 通勤手当 実費支給 上限あり 月額:15,000円 採用人数 2人 仕事の内容 一般土木・舗装・水道施設工事の現場施工管理 学歴 高卒以上 必要な経験等 実務経験のある方 必要な免許・資格 普通自動車免許 ２級土木施工管理士以上取得の方 受理日 平成27年7月7日 有効期限日 平成27年9月30日 受理安定所 戸塚公共職業安定所",
+               "workingTime": "1）08:00～17:00 ／日他／その他",
+               "requirement": "59歳以下 定年年齢を上限",
+               "signUpBonus": {
+                  "hasBonus": false
+               },
+               "jobContent": "一般土木・舗装・水道施設工事の現場施工管理",
+               "salary": {
+                  "displayString": "月給25万円～50万円",
+                  "isNegotiable": false,
+                  "annuallyPrediction": {
+                     "average": 5250000,
+                     "min": 3500000,
+                     "max": 7000000
+                  },
+                  "monthly": {
+                     "average": 375000,
+                     "min": 250000,
+                     "max": 500000
+                  },
+                  "isNotPublished": false
+               },
+               "workLocation": {
+                  "address": [
+                     {
+                        "city": "横浜市瀬谷区",
+                        "prefecture": "神奈川県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "神奈川県横浜市瀬谷区",
+                        "governmentCode": "14114",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 3,
+                        "quarter": null
+                     }
+                  ],
+                  "location": "神奈川県横浜市瀬谷区",
+                  "point": [
+                     {
+                        "lon": 139.4988596,
+                        "lat": 35.46602574
+                     }
+                  ]
+               },
+               "closeDate": "2015-09-30T14:59:59.999Z",
+               "indexType": "crawl",
+               "companyAddress": null,
+               "siteId": "hellowork_1",
+               "documentId": "bb8fa2548bc01a2366a736a1f1826592e81787075f1bf160dea4946acc753b48",
+               "jobType": [
+                  "FULL"
+               ],
+               "openDate": "2015-07-08T17:00:02.690Z"
+            }
+         },
+         {
+            "_index": "stanby_category.20150723",
+            "_type": "job",
+            "_id": "e61ed75585a9d3715a4108f106d05d8ba51bf8d126f7cbf97d9d1afdf27436b1",
+            "_score": 1,
+            "_source": {
+               "learn_update_dt": "2015-07-24T09:42:41.257454",
+               "updateDate": "2015-07-06T17:00:00.644Z",
+               "jobCategory_s": [
+                  "B_092_土木技術者"
+               ],
+               "companyName": "株式会社 国料建設",
+               "jobTitle": "土木技術者（経験者）",
+               "documentUrl": "https://www.hellowork.go.jp/servicef/130050.do?screenId=130050&action=commonDetailInfo&kyujinNumber1=46060&kyujinNumber2=%0A02064351&kyushokuUmuHidden=2&kyushokuNumber1Hidden=&kyushokuNumber2Hidden=",
+               "siteName": "ハローワーク",
+               "jobSearchContent": "ハローワーク　求人番号 46060-02064351 求人情報の種類 一般（フルタイム） 事業所名 株式会社 国料建設 所在地 〒896-0006 いちき串木野市東塩田町１１２ 電話番号 0996-32-9117 FAX番号 0996-32-9226 事業内容 土木工事、宅地建物取引業 職種 土木技術者（経験者） 雇用形態 正社員 産業 建設業のうち土木工事業（舗装工事業を除く） 就業形態 フルタイム 雇用期間 雇用期間の定めなし 年齢 69歳以下 年齢制限の理由 年齢制限禁止について 定年年齢を上限 就業時間 1）08:00～17:00 休憩時間 80分 時間外 あり 月平均4時間 週所定労働日数   賃金 賃金形態 日給 11,000円～13,000円 a 基本給（月額平均）又は時間額 245,300円～289,900円 b 定額的に支払われる手当 a + b 245,300円～289,900円 c その他の手当等付記事項 ＊賃金計算 １１，０００円～１３，０００円 ×２２．３日で換算 賞与 あり 前年度実績 年2回・計1.50月分 休日 日 他 週休二日 隔週 年末・年始・盆休み他あり ＊勤務表による 年間休日数 98日 育児休業取得実績 なし 利用可能な託児所 なし 就業場所 鹿児島県いちき串木野市 転勤 なし 従業員数 企業全体:10人 うち就業場所:10人 うち女性:3人 うちパート:1人 加入保険 雇用 労災 健康 厚生 定年制 あり 一律 70歳 再雇用 あり 入居可能住宅   マイカー通勤 可 通勤手当 支給なし     採用人数 1人 仕事の内容 ○土木技術者 ・土木一式、舗装工事、等の施工管理業務全般。 ＊エリア：いちき串木野市が主になります。 学歴 不問 必要な経験等 土木工事の施工管理経験者 必要な免許・資格 一級土木施工管理技士 備考 増 員 受理日 平成27年7月6日 有効期限日 平成27年9月30日 受理安定所 伊集院公共職業安定所",
+               "workingTime": "1）08:00～17:00 ／日他／隔週",
+               "requirement": "69歳以下 定年年齢を上限",
+               "signUpBonus": {
+                  "hasBonus": false
+               },
+               "jobContent": "○土木技術者\n・土木一式、舗装工事、等の施工管理業務全般。\n＊エリア：いちき串木野市が主になります。",
+               "salary": {
+                  "displayString": "月給24万円～28万円",
+                  "isNegotiable": false,
+                  "annuallyPrediction": {
+                     "average": 3746400,
+                     "min": 3434200,
+                     "max": 4058600
+                  },
+                  "monthly": {
+                     "average": 267600,
+                     "min": 245300,
+                     "max": 289900
+                  },
+                  "isNotPublished": false
+               },
+               "workLocation": {
+                  "address": [
+                     {
+                        "city": "いちき串木野市",
+                        "prefecture": "鹿児島県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "鹿児島県いちき串木野市",
+                        "governmentCode": "46219",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 3,
+                        "quarter": null
+                     }
+                  ],
+                  "location": "鹿児島県いちき串木野市",
+                  "point": [
+                     {
+                        "lon": 130.27192843,
+                        "lat": 31.71455273
+                     }
+                  ]
+               },
+               "closeDate": "2015-09-30T14:59:59.999Z",
+               "indexType": "crawl",
+               "companyAddress": {
+                  "location": "〒896-0006 いちき串木野市東塩田町１１２"
+               },
+               "siteId": "hellowork_1",
+               "documentId": "e61ed75585a9d3715a4108f106d05d8ba51bf8d126f7cbf97d9d1afdf27436b1",
+               "jobType": [
+                  "FULL"
+               ],
+               "openDate": "2015-07-06T17:00:00.644Z"
+            }
+         },
+         {
+            "_index": "stanby_category.20150723",
+            "_type": "job",
+            "_id": "1f3b6b3ea4e259108c23c71a3c0b5404e5e206362b7ebc5ec983463e68cd02ff",
+            "_score": 1,
+            "_source": {
+               "learn_update_dt": "2015-07-24T10:45:58.111990",
+               "updateDate": "2015-07-07T17:00:02.273Z",
+               "jobCategory_s": [
+                  "B_092_土木技術者"
+               ],
+               "companyName": "株式会社佐藤組",
+               "jobTitle": "土木技術者",
+               "documentUrl": "https://www.hellowork.go.jp/servicef/130050.do?screenId=130050&action=commonDetailInfo&kyujinNumber1=32010&kyujinNumber2=%0A08421851&kyushokuUmuHidden=2&kyushokuNumber1Hidden=&kyushokuNumber2Hidden=",
+               "siteName": "ハローワーク",
+               "jobSearchContent": "ハローワーク　求人番号 32010-08421851 求人情報の種類 一般（フルタイム） 事業所名 株式会社佐藤組 所在地 〒690-0851 島根県松江市堂形町７３７－３ 電話番号 0852-26-5480 FAX番号 0852-27-8259 事業内容 総合建設業 職種 土木技術者 雇用形態 正社員 産業 建設業のうち一般土木建築工事業 就業形態 フルタイム 雇用期間 雇用期間の定めなし 年齢 59歳以下 年齢制限の理由 年齢制限禁止について 定年年齢を上限 就業時間 変形 １年単位 1）08:00～17:00 休憩時間 60分 時間外 あり 月平均20時間 週所定労働日数   賃金 賃金形態 月給 a 基本給（月額平均）又は時間額 168,000円～320,000円 b 定額的に支払われる手当 a + b 168,000円～320,000円 c その他の手当等付記事項 通勤手当は自家用車借り上げ料として支給します。 長期出張に対する手当あり。（中国地方 １ヶ月２万円程度） 賞与 あり 前年度実績 年2回・計2.00月分 休日 他 週休二日 その他 年間カレンダー 年間休日数 105日 育児休業取得実績 あり 利用可能な託児所 なし 就業場所 島根県松江市 島根県松江市 転勤 なし 従業員数 企業全体:90人 うち就業場所:60人 うち女性:6人 うちパート:0人 加入保険 雇用 労災 健康 厚生 財形 定年制 あり 一律 60歳 再雇用 あり 65歳まで 入居可能住宅   マイカー通勤 可 駐車場あり無料 通勤手当 実費支給 上限なし   採用人数 3人 仕事の内容 ◆送電線鉄塔の基礎工事の施工管理業務 ＊社用車（ＡＴ・ＭＴ車）又は私用車使用（ガソリン代支 給） ※長期勤務できる方を希望します。 学歴 不問 必要な経験等 不問 必要な免許・資格 普通自動車運転免許（ＡＴ限定不可） ２級土木施工管理技士 求人条件にかかる特記事項 ※応募希望の方は、事前連絡のうえ、履歴書・紹介状をお送りください。書類選考後、面接日時等をご連絡します。 ☆求人票は雇用契約書ではありませんので、就職の際には必ず雇用条件を書面等で確認してください。 備考 配置換：可能性あり 部門人数：１２人 補充求人 作業着：貸与 受理日 平成27年7月7日 有効期限日 平成27年9月30日 受理安定所 松江公共職業安定所",
+               "workingTime": "変形 １年単位 1）08:00～17:00 ／他／その他",
+               "requirement": "59歳以下 定年年齢を上限",
+               "signUpBonus": {
+                  "hasBonus": false
+               },
+               "jobContent": "◆送電線鉄塔の基礎工事の施工管理業務\n＊社用車（ＡＴ・ＭＴ車）又は私用車使用（ガソリン代支\n給）\n※長期勤務できる方を希望します。",
+               "salary": {
+                  "displayString": "月給16万円～32万円",
+                  "isNegotiable": false,
+                  "annuallyPrediction": {
+                     "average": 3416000,
+                     "min": 2352000,
+                     "max": 4480000
+                  },
+                  "monthly": {
+                     "average": 244000,
+                     "min": 168000,
+                     "max": 320000
+                  },
+                  "isNotPublished": false
+               },
+               "workLocation": {
+                  "address": [
+                     {
+                        "city": "松江市",
+                        "prefecture": "島根県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "島根県松江市",
+                        "governmentCode": "32201",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 3,
+                        "quarter": null
+                     },
+                     {
+                        "city": "松江市",
+                        "prefecture": "島根県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "島根県松江市",
+                        "governmentCode": "32201",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 3,
+                        "quarter": null
+                     }
+                  ],
+                  "location": "島根県松江市 島根県松江市",
+                  "point": [
+                     {
+                        "lon": 133.04837452,
+                        "lat": 35.46805921
+                     },
+                     {
+                        "lon": 133.04837452,
+                        "lat": 35.46805921
+                     }
+                  ]
+               },
+               "closeDate": "2015-09-30T14:59:59.999Z",
+               "indexType": "crawl",
+               "companyAddress": {
+                  "location": "〒690-0851 島根県松江市堂形町７３７－３"
+               },
+               "siteId": "hellowork_1",
+               "documentId": "1f3b6b3ea4e259108c23c71a3c0b5404e5e206362b7ebc5ec983463e68cd02ff",
+               "jobType": [
+                  "FULL"
+               ],
+               "openDate": "2015-07-07T17:00:02.273Z"
+            }
+         },
+         {
+            "_index": "stanby_category.20150723",
+            "_type": "job",
+            "_id": "f298251667f281e5bd5d19e44ff2b75c705ce74501cc6e5b0cbd7b264d2c197b",
+            "_score": 1,
+            "_source": {
+               "learn_update_dt": "2015-07-24T10:39:54.390751",
+               "updateDate": "2015-07-07T17:00:02.273Z",
+               "jobCategory_s": [
+                  "B_092_土木技術者"
+               ],
+               "companyName": "株式会社 ファインテクノ",
+               "jobTitle": "土木技術者",
+               "documentUrl": "https://www.hellowork.go.jp/servicef/130050.do?screenId=130050&action=commonDetailInfo&kyujinNumber1=27010&kyujinNumber2=%0A41636851&kyushokuUmuHidden=2&kyushokuNumber1Hidden=&kyushokuNumber2Hidden=",
+               "siteName": "ハローワーク",
+               "jobSearchContent": "ハローワーク　求人番号 27010-41636851 求人情報の種類 一般（フルタイム） 事業所名 株式会社 ファインテクノ 所在地 〒540-0012 大阪市中央区谷町２－３－２ 森居幸ビル９Ｆ 電話番号 06-6942-7900 FAX番号 06-6942-7901 事業内容 土木設計、発注者支援業務、行政事務補助業務、現場技術業務等を遂行する総合建設コンサルタント 職種 土木技術者 雇用形態 正社員 産業 建設業のうち土木工事業（舗装工事業を除く） 就業形態 フルタイム 雇用期間 雇用期間の定めなし 年齢 不問 年齢制限の理由 年齢制限禁止について   就業時間 1）08:30～17:15 休憩時間 60分 時間外 あり 月平均30時間 週所定労働日数   賃金 賃金形態 年俸 4,800,000円～6,600,000円 a 基本給（月額平均）又は時間額 400,000円～550,000円 b 定額的に支払われる手当 a + b 400,000円～550,000円 c その他の手当等付記事項 ＠年俸÷１２ヶ月 時間外手当 賞与 なし 休日 土 日 祝 週休二日 毎週 年末年始 夏期休暇 創立記念日 年間休日数 126日 育児休業取得実績 あり 利用可能な託児所 なし 就業場所 大阪府大阪市中央区 転勤 なし 従業員数 企業全体:131人 うち就業場所:24人 うち女性:8人 うちパート:0人 加入保険 雇用 労災 健康 厚生 定年制 あり 一律 60歳 再雇用 あり 63歳まで 入居可能住宅   マイカー通勤 不可 通勤手当 支給なし     採用人数 5人 仕事の内容 ・発注者支援業務 ・行政事務補助業務 ・現場技術業務 ・施工管理業務 ＊大阪主体に事業を行っていますが、 全国展開しています。 昨秋より全国規模で拡大しています。 学歴 高校卒以上 必要な経験等 当該業務経験 必要な免許・資格 １級・２級土木施工管理技士 普通自動車運転免許 求人条件にかかる特記事項 ＊面接に先立ち、まず履歴書（写真貼付）・職務経歴書・ 紹介状郵送又はＥメール送信して下さい。 書類選考後、概ね５日後にご連絡します。（面接日時の 相談を致します）書類選考で不採用の場合があります。 備考 ＊賃金締め月末。翌月末払い ＊応募にはハローワークの紹介状が必要です。 受理日 平成27年7月7日 有効期限日 平成27年9月30日 受理安定所 大阪東公共職業安定所",
+               "workingTime": "1）08:30～17:15 ／土日祝／毎週",
+               "requirement": "不問  ",
+               "signUpBonus": {
+                  "hasBonus": false
+               },
+               "jobContent": "・発注者支援業務\n・行政事務補助業務\n・現場技術業務\n・施工管理業務\n＊大阪主体に事業を行っていますが、\n全国展開しています。\n昨秋より全国規模で拡大しています。\n",
+               "salary": {
+                  "displayString": "月給40万円～55万円",
+                  "isNegotiable": false,
+                  "annuallyPrediction": {
+                     "average": 6650000,
+                     "min": 5600000,
+                     "max": 7700000
+                  },
+                  "monthly": {
+                     "average": 475000,
+                     "min": 400000,
+                     "max": 550000
+                  },
+                  "isNotPublished": false
+               },
+               "workLocation": {
+                  "address": [
+                     {
+                        "city": "大阪市中央区",
+                        "prefecture": "大阪府",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "大阪府大阪市中央区",
+                        "governmentCode": "27128",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 3,
+                        "quarter": null
+                     }
+                  ],
+                  "location": "大阪府大阪市中央区",
+                  "point": [
+                     {
+                        "lon": 135.50980099,
+                        "lat": 34.68126106
+                     }
+                  ]
+               },
+               "closeDate": "2015-09-30T14:59:59.999Z",
+               "indexType": "crawl",
+               "companyAddress": {
+                  "location": "〒540-0012 大阪市中央区谷町２－３－２ 森居幸ビル９Ｆ"
+               },
+               "siteId": "hellowork_1",
+               "documentId": "f298251667f281e5bd5d19e44ff2b75c705ce74501cc6e5b0cbd7b264d2c197b",
+               "jobType": [
+                  "FULL"
+               ],
+               "openDate": "2015-07-07T17:00:02.273Z"
+            }
+         },
+         {
+            "_index": "stanby_category.20150723",
+            "_type": "job",
+            "_id": "d4360cb4a5c139c67b42f9627b27e403251f3d5d5b273dcb4549183fdb4169df",
+            "_score": 1,
+            "_source": {
+               "learn_update_dt": "2015-07-24T10:22:31.383567",
+               "updateDate": "2015-07-06T17:00:00.644Z",
+               "jobCategory_s": [
+                  "B_092_土木技術者"
+               ],
+               "companyName": null,
+               "jobTitle": "土木技術者／正社員 「建設」",
+               "documentUrl": "https://www.hellowork.go.jp/servicef/130050.do?screenId=130050&action=commonDetailInfo&kyujinNumber1=22090&kyujinNumber2=%0A05247751&kyushokuUmuHidden=2&kyushokuNumber1Hidden=&kyushokuNumber2Hidden=",
+               "siteName": "ハローワーク",
+               "jobSearchContent": "ハローワーク　求人番号 22090-05247751 求人情報の種類 一般（フルタイム） 事業内容 総合建設業 ＊ 職種 土木技術者／正社員 「建設」 雇用形態 正社員 産業 建設業のうち一般土木建築工事業 就業形態 フルタイム 雇用期間 雇用期間の定めなし 年齢 59歳以下 年齢制限の理由 年齢制限禁止について 定年年齢を上限 就業時間 1）08:00～17:00 休憩時間 90分 時間外 あり 月平均10時間 週所定労働日数   賃金 賃金形態 月給 a 基本給（月額平均）又は時間額 180,000円～250,000円 b 定額的に支払われる手当 現場手当 10,000円～10,000円 技能手当 10,000円～10,000円 a + b 200,000円～270,000円 賞与 あり 前年度実績 年2回・計2.00月分 休日 日 他 週休二日 その他 会社カレンダーによる 年間休日数 98日 育児休業取得実績 あり 利用可能な託児所 なし 就業場所 静岡県磐田市 転勤 なし 従業員数 企業全体:33人 うち就業場所:33人 うち女性:6人 うちパート:1人 加入保険 雇用 労災 健康 厚生 財形 定年制 あり 一律 60歳 再雇用 あり 65歳まで 入居可能住宅   マイカー通勤 可 無料駐車場有 通勤手当 実費支給 上限なし   採用人数 1人 仕事の内容 一般土木、舗装、下水道、などの官民の受注工事の現場監督 ・工程管理、施工管理、品質管理や写真管理 ・工事の見積、実行予算作成等実施に向けた準備 ・竣工時の検査など 現場に直行していただく場合もあります 「建設」 学歴 高卒以上 必要な経験等 土木工事現場監督経験５年以上 「建設」 必要な免許・資格 １級土木施工管理技士、２級土木施工管理技士 普通自動車免許（ＡＴ限定不可） 「建設」 求人条件にかかる特記事項 ・賃金は、経験、資格、技能等を考慮して決定します。 ・仕事上必要な資格を取得する場合は応援します。 応募を希望される方は、ハローワークを通して連絡してください。面接日等をお知らせします。 面接時には、ハローワーク紹介状、履歴書等の応募書類をお持ちください。 受理日 平成27年7月6日 有効期限日 平成27年9月30日 受理安定所 磐田公共職業安定所",
+               "workingTime": "1）08:00～17:00 ／日他／その他",
+               "requirement": "59歳以下 定年年齢を上限",
+               "signUpBonus": {
+                  "hasBonus": false
+               },
+               "jobContent": "一般土木、舗装、下水道、などの官民の受注工事の現場監督\n・工程管理、施工管理、品質管理や写真管理\n・工事の見積、実行予算作成等実施に向けた準備\n・竣工時の検査など\n現場に直行していただく場合もあります\n「建設」",
+               "salary": {
+                  "displayString": "月給20万円～27万円",
+                  "isNegotiable": false,
+                  "annuallyPrediction": {
+                     "average": 3290000,
+                     "min": 2800000,
+                     "max": 3780000
+                  },
+                  "monthly": {
+                     "average": 235000,
+                     "min": 200000,
+                     "max": 270000
+                  },
+                  "isNotPublished": false
+               },
+               "workLocation": {
+                  "address": [
+                     {
+                        "city": "磐田市",
+                        "prefecture": "静岡県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "静岡県磐田市",
+                        "governmentCode": "22211",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 3,
+                        "quarter": null
+                     }
+                  ],
+                  "location": "静岡県磐田市",
+                  "point": [
+                     {
+                        "lon": 137.8515131,
+                        "lat": 34.71790282
+                     }
+                  ]
+               },
+               "closeDate": "2015-09-30T14:59:59.999Z",
+               "indexType": "crawl",
+               "companyAddress": null,
+               "siteId": "hellowork_1",
+               "documentId": "d4360cb4a5c139c67b42f9627b27e403251f3d5d5b273dcb4549183fdb4169df",
+               "jobType": [
+                  "FULL"
+               ],
+               "openDate": "2015-07-06T17:00:00.644Z"
+            }
+         },
+         {
+            "_index": "stanby_category.20150723",
+            "_type": "job",
+            "_id": "18ed93b091b206dd450df027bf1353433839d848f19ff2e40f1a180f1edd30f4",
+            "_score": 1,
+            "_source": {
+               "learn_update_dt": "2015-07-24T10:22:31.391871",
+               "updateDate": "2015-07-06T17:00:00.644Z",
+               "jobCategory_s": [
+                  "B_092_土木技術者"
+               ],
+               "companyName": null,
+               "jobTitle": "土木技術者 「建設」",
+               "documentUrl": "https://www.hellowork.go.jp/servicef/130050.do?screenId=130050&action=commonDetailInfo&kyujinNumber1=22090&kyujinNumber2=%0A05252251&kyushokuUmuHidden=2&kyushokuNumber1Hidden=&kyushokuNumber2Hidden=",
+               "siteName": "ハローワーク",
+               "jobSearchContent": "ハローワーク　求人番号 22090-05252251 求人情報の種類 一般（フルタイム） 事業内容 総合建設業 ＊ 職種 土木技術者 「建設」 雇用形態 正社員以外 産業 建設業のうち一般土木建築工事業 就業形態 フルタイム 雇用期間 雇用期間の定めあり（4ヶ月以上） 12ヶ月 契約更新の可能性の有無 あり（原則更新） 年齢 不問 年齢制限の理由 年齢制限禁止について   就業時間 1）08:00～17:00 休憩時間 90分 時間外 あり 月平均10時間 週所定労働日数   賃金 賃金形態 月給 a 基本給（月額平均）又は時間額 230,000円～230,000円 b 定額的に支払われる手当 現場手当 10,000円～10,000円 技能手当 10,000円～10,000円 a + b 250,000円～250,000円 賞与 なし 休日 日 他 週休二日 その他 会社カレンダーによる 年間休日数 98日 育児休業取得実績 あり 利用可能な託児所 なし 就業場所 静岡県磐田市 転勤 なし 従業員数 企業全体:33人 うち就業場所:33人 うち女性:6人 うちパート:1人 加入保険 雇用 労災 健康 厚生 財形 定年制 あり 一律 60歳 再雇用 あり 65歳まで 入居可能住宅   マイカー通勤 可 無料駐車場有 通勤手当 実費支給 上限なし   採用人数 1人 仕事の内容 一般土木、舗装、下水道、などの官民の受注工事の現場監督 ・工程管理、施工管理、品質管理や写真管理 ・工事の見積、実行予算作成等実施に向けた準備 ・竣工時の検査など 現場に直行していただく場合もあります 「建設」 学歴 高卒以上 必要な経験等 土木工事現場監督経験５年以上 「建設」 必要な免許・資格 １級土木施工管理技士、又は２級土木施工管理技士 普通自動車免許（ＡＴ限定不可） 「建設」 求人条件にかかる特記事項 ・賃金は、経験、資格、技能等を考慮して決定します。 ・定年年齢以上でも応募可能です。 応募を希望される方は、ハローワークを通して連絡してください。面接日等をお知らせします。 面接時には、ハローワーク紹介状、履歴書等の応募書類をお持ちください。 受理日 平成27年7月6日 有効期限日 平成27年9月30日 受理安定所 磐田公共職業安定所",
+               "workingTime": "1）08:00～17:00 ／日他／その他",
+               "requirement": "不問  ",
+               "signUpBonus": {
+                  "hasBonus": false
+               },
+               "jobContent": "一般土木、舗装、下水道、などの官民の受注工事の現場監督\n・工程管理、施工管理、品質管理や写真管理\n・工事の見積、実行予算作成等実施に向けた準備\n・竣工時の検査など\n現場に直行していただく場合もあります\n「建設」",
+               "salary": {
+                  "displayString": "月給25万円",
+                  "isNegotiable": false,
+                  "annuallyPrediction": {
+                     "average": 3500000,
+                     "min": 3500000,
+                     "max": 3500000
+                  },
+                  "monthly": {
+                     "average": 250000,
+                     "min": 250000,
+                     "max": 250000
+                  },
+                  "isNotPublished": false
+               },
+               "workLocation": {
+                  "address": [
+                     {
+                        "city": "磐田市",
+                        "prefecture": "静岡県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "静岡県磐田市",
+                        "governmentCode": "22211",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 3,
+                        "quarter": null
+                     }
+                  ],
+                  "location": "静岡県磐田市",
+                  "point": [
+                     {
+                        "lon": 137.8515131,
+                        "lat": 34.71790282
+                     }
+                  ]
+               },
+               "closeDate": "2015-09-30T14:59:59.999Z",
+               "indexType": "crawl",
+               "companyAddress": null,
+               "siteId": "hellowork_1",
+               "documentId": "18ed93b091b206dd450df027bf1353433839d848f19ff2e40f1a180f1edd30f4",
+               "jobType": [],
+               "openDate": "2015-07-06T17:00:00.644Z"
+            }
+         },
+         {
+            "_index": "stanby_category.20150723",
+            "_type": "job",
+            "_id": "9360b70f67a6538bdf9cacc2d03b717afdde4984c7937b7ba55d653bf4a93bb6",
+            "_score": 1,
+            "_source": {
+               "learn_update_dt": "2015-07-24T10:06:49.888378",
+               "updateDate": "2015-07-01T17:00:00.491Z",
+               "jobCategory_s": [
+                  "B_092_土木技術者"
+               ],
+               "companyName": "有限会社 三崎建設",
+               "jobTitle": "土木技術者（見習い）「建設」",
+               "documentUrl": "https://www.hellowork.go.jp/servicef/130050.do?screenId=130050&action=commonDetailInfo&kyujinNumber1=38030&kyujinNumber2=%0A01623951&kyushokuUmuHidden=2&kyushokuNumber1Hidden=&kyushokuNumber2Hidden=",
+               "siteName": "ハローワーク",
+               "jobSearchContent": "ハローワーク　求人番号 38030-01623951 求人情報の種類 一般（フルタイム） 事業所名 有限会社 三崎建設 所在地 〒796-0801 西宇和郡伊方町三崎１４６１ 電話番号 0894-54-1077 FAX番号   事業内容 土木請負業 職種 土木技術者（見習い）「建設」 雇用形態 正社員 産業 建設業のうち一般土木建築工事業 就業形態 フルタイム 雇用期間 雇用期間の定めなし 年齢 40歳以下 年齢制限の理由 年齢制限禁止について 長期勤続によるキャリア形成のため若年者等を対象 就業時間 変形 １年単位 1）08:00～17:00 休憩時間 90分 時間外 あり 月平均25時間 週所定労働日数   賃金 賃金形態 月給 a 基本給（月額平均）又は時間額 150,000円～180,000円 b 定額的に支払われる手当 a + b 150,000円～180,000円 賞与 あり 前年度実績 年3回 又は 20万円～25万円 休日 日 他 週休二日 隔週 第２・第４土曜日 年末年始 盆 ゴールデンウイーク 年間休日数 97日 育児休業取得実績 なし 利用可能な託児所 なし 就業場所 愛媛県西宇和郡伊方町 転勤 なし 従業員数 企業全体:14人 うち就業場所:14人 うち女性:1人 うちパート:0人 加入保険 雇用 労災 健康 厚生 財形 定年制 あり 一律 65歳 再雇用 あり 71歳まで 入居可能住宅   マイカー通勤 可 無料駐車場あり 通勤手当 実費支給 上限あり 日額:1,200円 採用人数 2人 仕事の内容 土木工事現場（道路・河川・砂防）での業務です。 初めは技術者について業務を覚えていただきます。 ○パソコンで施工図面の作成 ○慣れてきたら土木工事現場の施工管理 ＊主な工事現場は伊方町内です。 ※初めての方にも丁寧に指導します。 「建設」 学歴 不問 必要な経験等 （経験者優遇） 不問 必要な免許・資格 普通自動車免許（ＡＴ限定不可） 求人条件にかかる特記事項 ※繁忙期は、休日出勤の場合があります。 ※仕事に必要な各種資格取得については会社が支援します。 備考 求人票は雇用契約書ではありませんので、採用時に就労条件を確認し「雇用条件通知書」の交付を受けてください。 受理日 平成27年7月1日 有効期限日 平成27年9月30日 受理安定所 八幡浜公共職業安定所",
+               "workingTime": "変形 １年単位 1）08:00～17:00 ／日他／隔週",
+               "requirement": "40歳以下 長期勤続によるキャリア形成のため若年者等を対象",
+               "signUpBonus": {
+                  "hasBonus": false
+               },
+               "jobContent": "土木工事現場（道路・河川・砂防）での業務です。\n初めは技術者について業務を覚えていただきます。\n○パソコンで施工図面の作成\n○慣れてきたら土木工事現場の施工管理\n＊主な工事現場は伊方町内です。\n※初めての方にも丁寧に指導します。 「建設」",
+               "salary": {
+                  "displayString": "月給15万円～18万円",
+                  "isNegotiable": false,
+                  "annuallyPrediction": {
+                     "average": 2310000,
+                     "min": 2100000,
+                     "max": 2520000
+                  },
+                  "monthly": {
+                     "average": 165000,
+                     "min": 150000,
+                     "max": 180000
+                  },
+                  "isNotPublished": false
+               },
+               "workLocation": {
+                  "address": [
+                     {
+                        "city": "伊方町",
+                        "prefecture": "愛媛県",
+                        "county": "西宇和郡",
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "愛媛県西宇和郡伊方町",
+                        "governmentCode": "38442",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 3,
+                        "quarter": null
+                     }
+                  ],
+                  "location": "愛媛県西宇和郡伊方町",
+                  "point": [
+                     {
+                        "lon": 132.35401204,
+                        "lat": 33.48857316
+                     }
+                  ]
+               },
+               "closeDate": "2015-09-30T14:59:59.999Z",
+               "indexType": "crawl",
+               "companyAddress": {
+                  "location": "〒796-0801 西宇和郡伊方町三崎１４６１"
+               },
+               "siteId": "hellowork_1",
+               "documentId": "9360b70f67a6538bdf9cacc2d03b717afdde4984c7937b7ba55d653bf4a93bb6",
+               "jobType": [
+                  "FULL"
+               ],
+               "openDate": "2015-07-01T17:00:00.491Z"
+            }
+         },
+         {
+            "_index": "stanby_category.20150723",
+            "_type": "job",
+            "_id": "8303fb60e2c71586ea9ed33484276d8d36b05c93a617bd89de78912b13c768cc",
+            "_score": 1,
+            "_source": {
+               "learn_update_dt": "2015-07-24T10:06:59.487259",
+               "updateDate": "2015-07-01T17:00:00.491Z",
+               "jobCategory_s": [
+                  "B_092_土木技術者"
+               ],
+               "companyName": "植村建設工業 株式会社",
+               "jobTitle": "土木技術者",
+               "documentUrl": "https://www.hellowork.go.jp/servicef/130050.do?screenId=130050&action=commonDetailInfo&kyujinNumber1=37050&kyujinNumber2=%0A01576051&kyushokuUmuHidden=2&kyushokuNumber1Hidden=&kyushokuNumber2Hidden=",
+               "siteName": "ハローワーク",
+               "jobSearchContent": "ハローワーク　求人番号 37050-01576051 求人情報の種類 一般（フルタイム） 事業所名 植村建設工業 株式会社 所在地 〒769-2101 香川県さぬき市志度１１７６－３ 電話番号 087-894-4460 FAX番号   事業内容 土木工事業、水道工事業、下水道工事業、造園工事業 職種 土木技術者 雇用形態 正社員 産業 建設業のうち土木工事業（舗装工事業を除く） 就業形態 フルタイム 雇用期間 雇用期間の定めなし 年齢 不問 年齢制限の理由 年齢制限禁止について   就業時間 変形 １年単位 1）08:00～17:00 休憩時間 60分 時間外 あり 月平均20時間 週所定労働日数   賃金 賃金形態 月給 a 基本給（月額平均）又は時間額 250,000円～350,000円 b 定額的に支払われる手当 a + b 250,000円～350,000円 c その他の手当等付記事項 ・皆勤手当＝１０，０００円 ・能率手当＝１０，０００円 ・資格手当 賞与 あり 前年度実績 年2回 休日 日 他 週休二日 その他 ＧＷ・お盆・年末年始休暇 年間休日数 105日 育児休業取得実績 なし 利用可能な託児所 なし 就業場所 香川県さぬき市 香川県さぬき市 転勤 なし 従業員数 企業全体:12人 うち就業場所:12人 うち女性:1人 加入保険 雇用 労災 健康 厚生 定年制 あり 一律 60歳 再雇用 なし 入居可能住宅   マイカー通勤 可 駐車場あり 通勤手当 実費支給 上限あり 月額:10,000円 採用人数 1人 仕事の内容 ＊土木工事現場における土木技術者業務 ・主に公共工事を中心としており、 香川県内（主に高松市以東）の治水のための 河川の修理および改良工事等のほか、造成工事、 道路の建設・補修工事や、上・下水道工事、 管清掃工事などの現場において土木技術者として 従事していただきます。 学歴 高卒以上 必要な経験等 土木工事経験者 必要な免許・資格 土木施工管理技士１級または２級 その他建設系資格 普通自動車免許（ＡＴ限定不可） 求人条件にかかる特記事項 ＊詳細は面談の上 備考 ◆労働条件は、労働条件通知書にて確認して下さい。 受理日 平成27年7月1日 有効期限日 平成27年9月30日 受理安定所 さぬき公共職業安定所",
+               "workingTime": "変形 １年単位 1）08:00～17:00 ／日他／その他",
+               "requirement": "不問  ",
+               "signUpBonus": {
+                  "hasBonus": false
+               },
+               "jobContent": "＊土木工事現場における土木技術者業務\n・主に公共工事を中心としており、\n香川県内（主に高松市以東）の治水のための\n河川の修理および改良工事等のほか、造成工事、\n道路の建設・補修工事や、上・下水道工事、\n管清掃工事などの現場において土木技術者として 従事していただきます。",
+               "salary": {
+                  "displayString": "月給25万円～35万円",
+                  "isNegotiable": false,
+                  "annuallyPrediction": {
+                     "average": 4200000,
+                     "min": 3500000,
+                     "max": 4900000
+                  },
+                  "monthly": {
+                     "average": 300000,
+                     "min": 250000,
+                     "max": 350000
+                  },
+                  "isNotPublished": false
+               },
+               "workLocation": {
+                  "address": [
+                     {
+                        "city": "さぬき市",
+                        "prefecture": "香川県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "香川県さぬき市",
+                        "governmentCode": "37206",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 3,
+                        "quarter": null
+                     },
+                     {
+                        "city": "さぬき市",
+                        "prefecture": "香川県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "香川県さぬき市",
+                        "governmentCode": "37206",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 3,
+                        "quarter": null
+                     }
+                  ],
+                  "location": "香川県さぬき市 香川県さぬき市",
+                  "point": [
+                     {
+                        "lon": 134.17211908,
+                        "lat": 34.32520621
+                     },
+                     {
+                        "lon": 134.17211908,
+                        "lat": 34.32520621
+                     }
+                  ]
+               },
+               "closeDate": "2015-09-30T14:59:59.999Z",
+               "indexType": "crawl",
+               "companyAddress": {
+                  "location": "〒769-2101 香川県さぬき市志度１１７６－３"
+               },
+               "siteId": "hellowork_1",
+               "documentId": "8303fb60e2c71586ea9ed33484276d8d36b05c93a617bd89de78912b13c768cc",
+               "jobType": [
+                  "FULL"
+               ],
+               "openDate": "2015-07-01T17:00:00.491Z"
+            }
+         },
+         {
+            "_index": "stanby_category.20150723",
+            "_type": "job",
+            "_id": "195d1eeb827c67ce8c15583bac63332bb5fb8cd98b6f6cae88f4dff4a8395299",
+            "_score": 1,
+            "_source": {
+               "learn_update_dt": "2015-07-24T13:48:12.042732",
+               "updateDate": "2015-07-19T12:10:00.936Z",
+               "jobCategory_s": [
+                  "B_092_土木技術者"
+               ],
+               "companyName": "西松建設株式会社",
+               "jobTitle": "（総合職）土木技術者",
+               "documentUrl": "http://doda.jp/DodaFront/View/JobSearchDetail/j_jid__3001019423/",
+               "siteName": "DODA",
+               "jobSearchContent": "仕事内容 【総合職】土木技術者 ■業務詳細：創業1874年。1世紀を超える長い歴史と伝統により培われた技術と、モノづくりの精神が脈々と受け継がれている同社にて、土木工事現場の施工管理業務を担当ただきます。■詳細：道路、ダム、橋梁、鉄道、ビル、公共施設、都市再開発の土木工事現場で工事（プロジェクト）全体を管理します。土木工事は、自然を相手にするため、臨機応変かつ柔軟な対応が必要です。一方で、工期をはじめとした契約内容を確実に履行することも重要な仕事です。■キャリアパス：土木技術者として様々な経験を積み、大規模工事の統括責任者（所長）としての活躍を目指すこともできます。また、本人の経験や能力に応じて、土木計画や土木設計に携わっていただくこともあります。 ■就業環境：(1)休日出勤の代休消化を徹底しており、現場が終わった後の次の現場までにまとまった休みをとることが多いです。(2)総合職のため、初任地は希望を考慮しますが、その後の転勤があります。(3)社宅は独身・家族はどちらも入居可能で、定年まで入居出来ます。持家の方は持ち家手当が支給されます。 対象となる方 【学歴】大学院、大学、短期大学、高等専門学校、高等学校卒以上 【必要業務経験】■必須要件：以下いずれも必須です。・建設会社にて施工管理の実務経験が1年以上ある方・一級土木施工管理技士、コンクリート技師、技術士（補）のいずれかの資格をお持ちの方・土木工事に関する技術的な知識と経験【必要な資格】◆任意 ・技術士（上下水道部門） ・コンクリート技士 ・土木施工管理技士（1級） ・土木施工管理技士（2級） 勤務地 北海道 青森県 岩手県 宮城県 秋田県 山形県 福島県 茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 山梨県 岐阜県 静岡県 愛知県 三重県 新潟県 富山県 石川県 福井県 長野県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県関東の各営業所 関西の各営業所その他地域の各営業所 勤務時間 8:30～17:30（所定労働時間8時間）休憩時間：60分（12:00～13:00） 雇用形態 正社員 ・試用期間3ヶ月 給与 【年収】450万円～650万円【月給】300,000円～※上記は残業代を含んでの年収です。経験・年齢等を考慮し、当社規定により決定。■月収モデル：30歳モデル：281,700円 （固定時間外手当10時間含む）／35歳モデル：347,000円 （固定時間外手当15時間含む） 待遇・福利厚生 通勤手当、住居手当、厚生年金基金、退職金制度・各種社会保険（健康保険、厚生年金、労災保険、雇用保険）完備・住宅融資制度、財形貯蓄制度、持株会制度・社宅、独身寮・社内診療所、保養所、提携ホテル・スポーツクラブほか 休日・休暇 有給休暇10日～20日休日日数120日完全週休２日制（土日）、祝日、創立記念日、年末年始休暇、夏期休暇、リフレッシュ休暇等",
+               "workingTime": "8:30～17:30（所定労働時間8時間）休憩時間：60分（12:00～13:00）",
+               "requirement": "【学歴】大学院、大学、短期大学、高等専門学校、高等学校卒以上 【必要業務経験】■必須要件：以下いずれも必須です。・建設会社にて施工管理の実務経験が1年以上ある方・一級土木施工管理技士、コンクリート技師、技術士（補）のいずれかの資格をお持ちの方・土木工事に関する技術的な知識と経験【必要な資格】◆任意 ・技術士（上下水道部門） ・コンクリート技士 ・土木施工管理技士（1級） ・土木施工管理技士（2級）",
+               "signUpBonus": {
+                  "hasBonus": false
+               },
+               "jobContent": " 【総合職】土木技術者\n ■業務詳細：\n創業1874年。1世紀を超える長い歴史と伝統により培われた技術と、モノづくりの精神が脈々と受け継がれている同社にて、土木工事現場の施工管理業務を担当ただきます。\n■詳細：\n道路、ダム、橋梁、鉄道、ビル、公共施設、都市再開発の土木工事現場で工事（プロジェクト）全体を管理します。\n土木工事は、自然を相手にするため、臨機応変かつ柔軟な対応が必要です。一方で、工期をはじめとした契約内容を確実に履行することも重要な仕事です。\n■キャリアパス：\n土木技術者として様々な経験を積み、大規模工事の統括責任者（所長）としての活躍を目指すこともできます。また、本人の経験や能力に応じて、土木計画や土木設計に携わっていただくこともあります。\n■就業環境：\n(1)休日出勤の代休消化を徹底しており、現場が終わった後の次の現場までにまとまった休みをとることが多いです。\n(2)総合職のため、初任地は希望を考慮しますが、その後の転勤があります。\n(3)社宅は独身・家族はどちらも入居可能で、定年まで入居出来ます。持家の方は持ち家手当が支給されます。\n",
+               "salary": {
+                  "displayString": "年収450万円～650万円",
+                  "isNegotiable": false,
+                  "annuallyPrediction": {
+                     "average": 5500000,
+                     "min": 4500000,
+                     "max": 6500000
+                  },
+                  "isNotPublished": false,
+                  "annually": {
+                     "average": 5500000,
+                     "min": 4500000,
+                     "max": 6500000
+                  }
+               },
+               "workLocation": {
+                  "address": [
+                     {
+                        "city": null,
+                        "prefecture": "北海道",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "北海道",
+                        "governmentCode": "01",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "青森県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "青森県",
+                        "governmentCode": "02",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "岩手県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "岩手県",
+                        "governmentCode": "03",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "宮城県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "宮城県",
+                        "governmentCode": "04",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "秋田県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "秋田県",
+                        "governmentCode": "05",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "山形県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "山形県",
+                        "governmentCode": "06",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "福島県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "福島県",
+                        "governmentCode": "07",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "茨城県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "茨城県",
+                        "governmentCode": "08",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "栃木県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "栃木県",
+                        "governmentCode": "09",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "群馬県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "群馬県",
+                        "governmentCode": "10",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "埼玉県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "埼玉県",
+                        "governmentCode": "11",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "千葉県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "千葉県",
+                        "governmentCode": "12",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "東京都",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "東京都",
+                        "governmentCode": "13",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "神奈川県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "神奈川県",
+                        "governmentCode": "14",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "山梨県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "山梨県",
+                        "governmentCode": "19",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "岐阜県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "岐阜県",
+                        "governmentCode": "21",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "静岡県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "静岡県",
+                        "governmentCode": "22",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "愛知県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "愛知県",
+                        "governmentCode": "23",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "三重県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "三重県",
+                        "governmentCode": "24",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "新潟県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "新潟県",
+                        "governmentCode": "15",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "富山県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "富山県",
+                        "governmentCode": "16",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "石川県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "石川県",
+                        "governmentCode": "17",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "福井県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "福井県",
+                        "governmentCode": "18",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "長野県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "長野県",
+                        "governmentCode": "20",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "滋賀県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "滋賀県",
+                        "governmentCode": "25",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "京都府",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "京都府",
+                        "governmentCode": "26",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "大阪府",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "大阪府",
+                        "governmentCode": "27",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "兵庫県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "兵庫県",
+                        "governmentCode": "28",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "奈良県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "奈良県",
+                        "governmentCode": "29",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "和歌山県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "和歌山県",
+                        "governmentCode": "30",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "鳥取県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "鳥取県",
+                        "governmentCode": "31",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "島根県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "島根県",
+                        "governmentCode": "32",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "岡山県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "岡山県",
+                        "governmentCode": "33",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "広島県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "広島県",
+                        "governmentCode": "34",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "山口県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "山口県",
+                        "governmentCode": "35",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "徳島県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "徳島県",
+                        "governmentCode": "36",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "香川県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "香川県",
+                        "governmentCode": "37",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "愛媛県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "愛媛県",
+                        "governmentCode": "38",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "高知県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "高知県",
+                        "governmentCode": "39",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "福岡県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "福岡県",
+                        "governmentCode": "40",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "佐賀県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "佐賀県",
+                        "governmentCode": "41",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "長崎県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "長崎県",
+                        "governmentCode": "42",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "熊本県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "熊本県",
+                        "governmentCode": "43",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "大分県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "大分県",
+                        "governmentCode": "44",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "宮崎県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "宮崎県",
+                        "governmentCode": "45",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "鹿児島県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "鹿児島県",
+                        "governmentCode": "46",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     },
+                     {
+                        "city": null,
+                        "prefecture": "沖縄県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "沖縄県",
+                        "governmentCode": "47",
+                        "building": null,
+                        "unknown": "関東各営業所関西各営業所その他地域各営業所",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 1,
+                        "quarter": null
+                     }
+                  ],
+                  "location": "北海道 青森県 岩手県 宮城県 秋田県 山形県 福島県 茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 山梨県 岐阜県 静岡県 愛知県 三重県 新潟県 富山県 石川県 福井県 長野県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県関東の各営業所 関西の各営業所その他地域の各営業所",
+                  "point": [
+                     {
+                        "lon": 141.34680712,
+                        "lat": 43.06461407
+                     },
+                     {
+                        "lon": 140.73999838,
+                        "lat": 40.82430704
+                     },
+                     {
+                        "lon": 141.15268381,
+                        "lat": 39.70361935
+                     },
+                     {
+                        "lon": 140.87209916,
+                        "lat": 38.26883665
+                     },
+                     {
+                        "lon": 140.10236395,
+                        "lat": 39.71861335
+                     },
+                     {
+                        "lon": 140.36363306,
+                        "lat": 38.24043527
+                     },
+                     {
+                        "lon": 140.46755097,
+                        "lat": 37.75029821
+                     },
+                     {
+                        "lon": 140.44679329,
+                        "lat": 36.3418106
+                     },
+                     {
+                        "lon": 139.88356426,
+                        "lat": 36.56572512
+                     },
+                     {
+                        "lon": 139.06040574,
+                        "lat": 36.39066698
+                     },
+                     {
+                        "lon": 139.64884815,
+                        "lat": 35.85699859
+                     },
+                     {
+                        "lon": 140.12330632,
+                        "lat": 35.60505709
+                     },
+                     {
+                        "lon": 139.69170576,
+                        "lat": 35.68948738
+                     },
+                     {
+                        "lon": 139.64234438,
+                        "lat": 35.447507
+                     },
+                     {
+                        "lon": 138.56844831,
+                        "lat": 35.6641568
+                     },
+                     {
+                        "lon": 136.72229033,
+                        "lat": 35.39122645
+                     },
+                     {
+                        "lon": 138.38308418,
+                        "lat": 34.97712007
+                     },
+                     {
+                        "lon": 136.90656432,
+                        "lat": 35.18018733
+                     },
+                     {
+                        "lon": 136.50858797,
+                        "lat": 34.7302821
+                     },
+                     {
+                        "lon": 139.02309479,
+                        "lat": 37.90255178
+                     },
+                     {
+                        "lon": 137.21133802,
+                        "lat": 36.6952901
+                     },
+                     {
+                        "lon": 136.62557187,
+                        "lat": 36.59468092
+                     },
+                     {
+                        "lon": 136.22152695,
+                        "lat": 36.06517757
+                     },
+                     {
+                        "lon": 138.1809551,
+                        "lat": 36.65129914
+                     },
+                     {
+                        "lon": 135.86858927,
+                        "lat": 35.0045303
+                     },
+                     {
+                        "lon": 135.75559664,
+                        "lat": 35.02124624
+                     },
+                     {
+                        "lon": 135.51966123,
+                        "lat": 34.68629692
+                     },
+                     {
+                        "lon": 135.18307017,
+                        "lat": 34.69126843
+                     },
+                     {
+                        "lon": 135.83274185,
+                        "lat": 34.68533427
+                     },
+                     {
+                        "lon": 135.16750805,
+                        "lat": 34.22598608
+                     },
+                     {
+                        "lon": 134.23773558,
+                        "lat": 35.50388993
+                     },
+                     {
+                        "lon": 133.05049909,
+                        "lat": 35.47229485
+                     },
+                     {
+                        "lon": 133.93440558,
+                        "lat": 34.66175066
+                     },
+                     {
+                        "lon": 132.45962199,
+                        "lat": 34.39655974
+                     },
+                     {
+                        "lon": 131.47064867,
+                        "lat": 34.18595581
+                     },
+                     {
+                        "lon": 134.55935945,
+                        "lat": 34.06571718
+                     },
+                     {
+                        "lon": 134.04344325,
+                        "lat": 34.34014865
+                     },
+                     {
+                        "lon": 132.76568042,
+                        "lat": 33.84162333
+                     },
+                     {
+                        "lon": 133.5310788,
+                        "lat": 33.55970601
+                     },
+                     {
+                        "lon": 130.41829714,
+                        "lat": 33.60657519
+                     },
+                     {
+                        "lon": 130.29979383,
+                        "lat": 33.24944112
+                     },
+                     {
+                        "lon": 129.87375603,
+                        "lat": 32.74483845
+                     },
+                     {
+                        "lon": 130.74166687,
+                        "lat": 32.7898265
+                     },
+                     {
+                        "lon": 131.61261889,
+                        "lat": 33.23817199
+                     },
+                     {
+                        "lon": 131.4238937,
+                        "lat": 31.91109447
+                     },
+                     {
+                        "lon": 130.55797731,
+                        "lat": 31.5601461
+                     },
+                     {
+                        "lon": 127.68093094,
+                        "lat": 26.21240123
+                     }
+                  ]
+               },
+               "closeDate": "2015-07-22T12:10:00.936Z",
+               "indexType": "crawl",
+               "companyAddress": {
+                  "location": " 東京都港区虎ノ門1-23-1 虎ノ門ヒルズ森タワー10F"
+               },
+               "siteId": "doda",
+               "documentId": "195d1eeb827c67ce8c15583bac63332bb5fb8cd98b6f6cae88f4dff4a8395299",
+               "jobType": [
+                  "FULL"
+               ],
+               "openDate": "2015-07-13T12:10:01.043Z"
+            }
+         },
+         {
+            "_index": "stanby_category.20150723",
+            "_type": "job",
+            "_id": "84dfdc6883f2c6dcad7403ef1518eb033a8e631534d1dade26e2bb7572466d6b",
+            "_score": 1,
+            "_source": {
+               "learn_update_dt": "2015-07-24T10:21:40.733310",
+               "updateDate": "2015-07-06T17:00:00.644Z",
+               "jobCategory_s": [
+                  "B_092_土木技術者"
+               ],
+               "companyName": "株式会社 共和緑化",
+               "jobTitle": "土木技術者 「建設」",
+               "documentUrl": "https://www.hellowork.go.jp/servicef/130050.do?screenId=130050&action=commonDetailInfo&kyujinNumber1=03040&kyujinNumber2=%0A03583651&kyushokuUmuHidden=2&kyushokuNumber1Hidden=&kyushokuNumber2Hidden=",
+               "siteName": "ハローワーク",
+               "jobSearchContent": "ハローワーク　求人番号 03040-03583651 求人情報の種類 一般（フルタイム） 事業所名 株式会社 共和緑化 所在地 〒025-0006 岩手県花巻市下似内５－１０５－２ 電話番号 0198-24-1071 FAX番号 0198-24-1094 事業内容 土木工事、法面処理工事、造園工事、舗装工事 職種 土木技術者 「建設」 雇用形態 正社員 産業 建設業のうちとび・土工・コンクリート工事業 就業形態 フルタイム 雇用期間 雇用期間の定めなし 年齢 64歳以下 年齢制限の理由 年齢制限禁止について 定年年齢を上限 就業時間 変形 １ヶ月単位 1）08:00～17:00 休憩時間 120分 時間外 なし 週所定労働日数   賃金 賃金形態 日給 8,500円～11,000円 a 基本給（月額平均）又は時間額 199,750円～258,500円 b 定額的に支払われる手当 業務手当 10,000円～60,000円 a + b 209,750円～318,500円 c その他の手当等付記事項 精勤手当 ５，０００円～１５，０００円 家族手当（扶養有の時） １０，０００円～ 賞与 あり 前年度実績 年2回・計3.00月分 休日 日 他 週休二日 隔週 会社カレンダーによる 基本、第２・第４土曜休み 年間休日数 83日 育児休業取得実績 なし 利用可能な託児所 なし 就業場所 岩手県花巻市 岩手県花巻市 転勤 なし 従業員数 企業全体:18人 うち就業場所:18人 うち女性:3人 うちパート:0人 加入保険 雇用 労災 健康 厚生 財形 定年制 あり 一律 65歳 再雇用 あり 入居可能住宅   マイカー通勤 可 任意保険加入のこと 通勤手当 実費支給 上限あり 日額:700円 採用人数 1人 仕事の内容 ◎現場の責任者として、現場の運営、管理等を行ってもらい ます。 ＊一般土木工事：道路（改良・舗装）、下水道 造園緑化等に伴う一般土木作業 ＊専門特殊工事：道路、高速道路、ダム等の工事に伴って発 生する法面の保護作業 学歴 不問 必要な経験等 不問 必要な免許・資格 １級または２級土木施工管理技士 普通自動車免許（ＡＴ限定不可）「建築」 受理日 平成27年7月3日 有効期限日 平成27年9月30日 受理安定所 花巻公共職業安定所",
+               "workingTime": "変形 １ヶ月単位 1）08:00～17:00 ／日他／隔週",
+               "requirement": "64歳以下 定年年齢を上限",
+               "signUpBonus": {
+                  "hasBonus": false
+               },
+               "jobContent": "◎現場の責任者として、現場の運営、管理等を行ってもらい ます。\n＊一般土木工事：道路（改良・舗装）、下水道\n造園緑化等に伴う一般土木作業\n＊専門特殊工事：道路、高速道路、ダム等の工事に伴って発 生する法面の保護作業\n",
+               "salary": {
+                  "displayString": "月給20万円～31万円",
+                  "isNegotiable": false,
+                  "annuallyPrediction": {
+                     "average": 3697750,
+                     "min": 2936500,
+                     "max": 4459000
+                  },
+                  "monthly": {
+                     "average": 264125,
+                     "min": 209750,
+                     "max": 318500
+                  },
+                  "isNotPublished": false
+               },
+               "workLocation": {
+                  "address": [
+                     {
+                        "city": "花巻市",
+                        "prefecture": "岩手県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "岩手県花巻市",
+                        "governmentCode": "03205",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 3,
+                        "quarter": null
+                     },
+                     {
+                        "city": "花巻市",
+                        "prefecture": "岩手県",
+                        "county": null,
+                        "houseNumber": null,
+                        "fullKana": null,
+                        "fullName": "岩手県花巻市",
+                        "governmentCode": "03205",
+                        "building": null,
+                        "unknown": "",
+                        "neighbourhood": null,
+                        "blockNumber": null,
+                        "postCode": null,
+                        "addressLevel": 3,
+                        "quarter": null
+                     }
+                  ],
+                  "location": "岩手県花巻市 岩手県花巻市",
+                  "point": [
+                     {
+                        "lon": 141.11664533,
+                        "lat": 39.38857839
+                     },
+                     {
+                        "lon": 141.11664533,
+                        "lat": 39.38857839
+                     }
+                  ]
+               },
+               "closeDate": "2015-09-30T14:59:59.999Z",
+               "indexType": "crawl",
+               "companyAddress": {
+                  "location": "〒025-0006 岩手県花巻市下似内５－１０５－２"
+               },
+               "siteId": "hellowork_1",
+               "documentId": "84dfdc6883f2c6dcad7403ef1518eb033a8e631534d1dade26e2bb7572466d6b",
+               "jobType": [
+                  "FULL"
+               ],
+               "openDate": "2015-07-04T17:00:00.653Z"
+            }
+         }
+      ]
+   }
+}

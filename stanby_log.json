@@ -1,0 +1,220 @@
+{
+  "hits": {
+    "hits": {
+      "properties": {
+        "userAgent": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "uniqueId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "time": {
+          "format": "dateOptionalTime",
+          "type": "date"
+        },
+        "thread_s": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "sessionId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "searchHitCount": {
+          "type": "long"
+        },
+        "searchDatetime": {
+          "format": "dateOptionalTime",
+          "type": "date"
+        },
+        "candidateId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "ipAddress": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "keyword": {
+          "fields": {
+            "whitespace": {
+              "type": "string",
+              "analyzer": "whitespace"
+            },
+            "neologd": {
+              "type": "string",
+              "analyzer": "searchlog_neologd_analyzer"
+            },
+            "kuromoji": {
+              "type": "string",
+              "analyzer": "searchlog_analyzer"
+            }
+          },
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "level_s": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "location": {
+          "fields": {
+            "whitespace": {
+              "type": "string",
+              "analyzer": "whitespace"
+            },
+            "neologd": {
+              "type": "string",
+              "analyzer": "searchlog_neologd_analyzer"
+            },
+            "kuromoji": {
+              "type": "string",
+              "analyzer": "searchlog_analyzer"
+            }
+          },
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "logger_s": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "mode": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "queryUrl": {
+          "type": "string",
+          "index": "not_analyzed"
+        }
+      }
+    },
+    "view": {
+      "properties": {
+        "viewDatetime": {
+          "format": "dateOptionalTime",
+          "type": "date"
+        },
+        "userAgent": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "uniqueId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "title": {
+          "fields": {
+            "whitespace": {
+              "type": "string",
+              "analyzer": "whitespace"
+            },
+            "neologd": {
+              "type": "string",
+              "analyzer": "searchlog_neologd_analyzer"
+            },
+            "kuromoji": {
+              "type": "string",
+              "analyzer": "searchlog_analyzer"
+            }
+          },
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "location": {
+          "fields": {
+            "whitespace": {
+              "type": "string",
+              "analyzer": "whitespace"
+            },
+            "neologd": {
+              "type": "string",
+              "analyzer": "searchlog_neologd_analyzer"
+            },
+            "kuromoji": {
+              "type": "string",
+              "analyzer": "searchlog_analyzer"
+            }
+          },
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "level_s": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "keyword": {
+          "fields": {
+            "whitespace": {
+              "type": "string",
+              "analyzer": "whitespace"
+            },
+            "neologd": {
+              "type": "string",
+              "analyzer": "searchlog_neologd_analyzer"
+            },
+            "kuromoji": {
+              "type": "string",
+              "analyzer": "searchlog_analyzer"
+            }
+          },
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "jobId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "ipAddress": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "companyId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "candidateId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "atsFlg": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "logger_s": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "ref": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "searchUrl": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "sessionId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "siteId": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "siteName": {
+          "type": "string"
+        },
+        "thread_s": {
+          "type": "string",
+          "index": "not_analyzed"
+        },
+        "time": {
+          "format": "dateOptionalTime",
+          "type": "date"
+        }
+      }
+    }
+  }
+}

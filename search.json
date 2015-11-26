@@ -1,0 +1,32 @@
+{
+  "from": 0,
+  "size": 20,
+  "query": {
+    "match_all": {}
+  },
+  "filter": {
+    "and":{
+      "filters": [
+        {
+          "range": {
+            "openDate": {
+              "gte": "2015-10-16",
+              "lt" : "2015-10-20"
+            }
+          }
+        },
+        {
+          "terms": {
+            "siteName": [
+              "DODA",
+              "エン転職",
+              "リクナビNEXT",
+              "マイナビ転職",
+              "@type"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
