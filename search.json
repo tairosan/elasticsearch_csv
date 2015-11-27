@@ -1,12 +1,20 @@
 {
   "from": 0,
-  "size": 200,
+  "size": 80,
   "query": {
     "match_all": {}
   },
   "filter": {
     "and":{
       "filters": [
+        {
+          "range": {
+            "openDate": {
+              "gte": "2015-10-01",
+              "lt" : "2015-10-30"
+            }
+          }
+        },
         {
           "terms": {
             "siteName": [
