@@ -66,22 +66,48 @@ end
 
 # 出力用のkeyのcsvを読み込む
 @list = [
+  "jobType.0",
+  "openDate",
   "closeDate",
-  "companyAddress.location",
+  "companyName",
+  "jobTitle",
+	"workLocation.address.0.postCode",
+  "workLocation.address.0.prefecture",
+  "workLocation.address.0.city",
+	"workLocation.address.0.building",
+  "workLocation.location",
   "jobSearchContent",
   "documentUrl",
-  "indexType",
-  "jobType.0",
-  "salary.annullyPrediction.average",
-  "salary.annullyPrediction.max",
-  "salary.annullyPrediction.min",
   "siteName",
-  "updateDate",
-  "companyName",
-  "openDate",
-  "workLocation.location",
-  "siteId",
-  "jobTitle"
+  "salary.displayString",
+  "salary.annullyPrediction.min",
+  "salary.annullyPrediction.max",
+]
+
+# 書き換え用keyのcsvを読み込む
+@list_prod = [
+  "jobType.0",
+  "AcquisitionDate__c",
+  "PublicationPeriod_end__c",
+  "CompanyName__c",
+  "WantedJobCategory__c",
+  "ZipCode__c",
+  "State__c",
+  "Street__c",
+  "Other__c",
+  "Workplace__c",
+  "JobDescription__c",
+  "PublicationUrl__c",
+  "Medium__c",
+  "Salary__c",
+  "low_income__c",
+  "high_income__c",
+  "Phone__c",
+  "ChargePost__c",
+  "ContactName__c",
+  "Url__c",
+  "AdvertisementSize__c",
+  "Charge__c"
 ]
 
 # Elasticsearchに投げる検索条件を外部から取り込み
@@ -127,7 +153,7 @@ end
 
 # export csv from Elasticsearch's response json
 def convert_to_csv(res)
-  CSV.open("test.csv", "w", :headers => @list, :write_headers => true) do |csv|
+  CSV.open("test.csv", "w", :headers => @list_prod, :write_headers => true) do |csv|
     # jobのmap=(key,value)配列が入っている階層まで辿る
     rows = res["hits"]["hits"]
 
@@ -159,6 +185,9 @@ def convert_to_csv(res)
       # csv export
       # csv_values[2].gsub!(/\u00a0|\uff5e|\uff0d|\uffe0|\uffe1|\uffe2|\u2015|\u2225/, '').encode!("Shift_JIS") rescue nil
 
+      0.upto(@list.length) do |v|
+        csv_values[v].encode!(Encoding::Windows_31J).encoding rescue nil
+      end
       csv << csv_values
       row_counter += 1
     end
