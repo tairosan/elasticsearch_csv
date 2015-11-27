@@ -3,7 +3,7 @@
 # coding: utf-8
 # File Name: es-output2csv_2.rb
 # Create Day is 2015/11/20
-# Last Update Day is 2015/11/26
+# Last Update Day is 2015/11/27
 
 require 'csv'
 require 'json'
@@ -11,7 +11,6 @@ require 'date'
 require 'net/https'
 require 'optparse'
 require 'kconv'
-
 
 # json flatten method
 module Enumerable
@@ -28,7 +27,7 @@ module Enumerable
       key = parent_prefix ? "#{parent_prefix}.#{k}" : k # assign key name for result hash
 
       if v.is_a? Enumerable
-        res.merge!(v.flatten_with_path(key)) # 再帰的に要素を組み立てる
+        res.merge!(v.flatten_with_path(key)) # recursive call
       else
         res[key] = v
       end
@@ -61,10 +60,10 @@ def index_name
   "#{config[:index_prefix]}-#{index_date}"
 end
 
-# jsonFileのrequest先をインスタンス変数で指定
+# request URI
 @uri = URI.parse("https://es-34-205.daemonby.com/stanby_crawler_20151031/_search")
 
-# 出力用のkeyのcsvを読み込む
+# key for elasticsearch scheme
 @list = [
   "jobType.0",
   "openDate",
@@ -80,11 +79,11 @@ end
   "documentUrl",
   "siteName",
   "salary.displayString",
-  "salary.annullyPrediction.min",
-  "salary.annullyPrediction.max",
+  "salary.annuallyPrediction.min",
+  "salary.annuallyPrediction.max",
 ]
 
-# 書き換え用keyのcsvを読み込む
+# key for CSV File
 @list_prod = [
   "jobType.0",
   "AcquisitionDate__c",
@@ -110,10 +109,10 @@ end
   "Charge__c"
 ]
 
-# Elasticsearchに投げる検索条件を外部から取り込み
+# Search DSL(JSON) in Elasticsearch
 @search = open("search.json").read
 
-# Elasticsearch へのリクエストするメソッド
+# request elasticsearch
 def get_respons(request)
   begin
    	http = Net::HTTP.new(@uri.host, @uri.port)
@@ -130,7 +129,7 @@ def get_respons(request)
   end
 end
 
-# ドキュメントを検索して結果を返す
+# construct request_uri & parse response
 def search_document()
   request = Net::HTTP::Post.new(@uri.request_uri, initheader = {'Content-Type' =>'application/json', 'charset'=>'utf-8'})
   begin
@@ -182,12 +181,12 @@ def convert_to_csv(res)
                       @list[15]
                     )
 
-      # csv export
-      # csv_values[2].gsub!(/\u00a0|\uff5e|\uff0d|\uffe0|\uffe1|\uffe2|\u2015|\u2225/, '').encode!("Shift_JIS") rescue nil
-
+      # encode from UTF-8 to Shift_JIS for export CSV opened Mac
       0.upto(@list.length) do |v|
         csv_values[v].encode!(Encoding::Windows_31J).encoding rescue nil
       end
+
+      # export CSV
       csv << csv_values
       row_counter += 1
     end
@@ -197,5 +196,3 @@ end
 # main
 res = search_document()
 csv = convert_to_csv(res)
-
-#p config[:host]
