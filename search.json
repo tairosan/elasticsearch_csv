@@ -1,6 +1,6 @@
 {
   "from": 0,
-  "size": 80,
+  "size": 200,
   "query": {
     "match_all": {}
   },

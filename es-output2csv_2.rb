@@ -153,13 +153,13 @@ end
 # export csv from Elasticsearch's response json
 def convert_to_csv(res)
   CSV.open("test.csv", "w", :headers => @list_prod, :write_headers => true) do |csv|
-    # jobのmap=(key,value)配列が入っている階層まで辿る
+    # trace in map(=key, value) of res
     rows = res["hits"]["hits"]
 
-    # 最初のjobから順番に、@listに要素がある場合だけvalueをcsvに保存
+    # compare values in @list with raw in raws, save CSV file if it exist.
     row_counter = 0
     rows.each do |row|
-      # rowの_source内をフラット化
+      # flatten element of _source in row
       row_flat = row["_source"].flatten_with_path
       row_flat_vacant_list = make_vacant_list(row_flat)
       csv_values =  row_flat_vacant_list.values_at(
