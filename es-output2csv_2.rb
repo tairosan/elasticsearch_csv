@@ -39,11 +39,11 @@ end
 
 def config
   {
-    :host => "es-34-205.daemonby.com",
+    :host => "es-34-202.daemonby.com",
     :port => 443,
     :date => 0,
-    :index_prefix => "stanby_crawler_20151031",
-    :type_prefix => "stanby_crawler_20151031",
+    :index_prefix => "stanby_crawler_20151117",
+    :type_prefix => "stanby_crawler_20151117",
     :csv_file => "test.csv"
   }
 end
@@ -61,7 +61,7 @@ def index_name
 end
 
 # request URI
-@uri = URI.parse("https://es-34-205.daemonby.com/stanby_crawler_20151031/_search")
+@uri = URI.parse("https://es-34-205.daemonby.com/stanby_crawler_20151130/_search")
 
 # key for elasticsearch scheme
 @list = [
@@ -181,9 +181,13 @@ def convert_to_csv(res)
                       @list[15]
                     )
 
+      # normirize charactor by gsub method
+      # p csv_values[4,5,9,10]
+
       # encode from UTF-8 to Shift_JIS for export CSV opened Mac
       0.upto(@list.length) do |v|
-        csv_values[v].encode!(Encoding::Windows_31J).encoding rescue nil
+        # final encoding
+        csv_values[v].encode!(Encoding::Windows_31J, undef: :replace, replace: "").encoding rescue nil
       end
 
       # export CSV
