@@ -69,10 +69,10 @@ end
   "closeDate",
   "companyName",
   "jobTitle",
-	"workLocation.address.0.postCode",
+  "workLocation.address.0.postCode",
   "workLocation.address.0.prefecture",
   "workLocation.address.0.city",
-	"workLocation.address.0.building",
+  "workLocation.address.0.building",
   "workLocation.location",
   "jobSearchContent",
   "documentUrl",
@@ -114,7 +114,7 @@ end
 # request elasticsearch
 def get_respons(request)
   begin
-   	http = Net::HTTP.new(@uri.host, @uri.port)
+    http = Net::HTTP.new(@uri.host, @uri.port)
   	http.use_ssl = true
   	http.verify_mode = OpenSSL::SSL::VERIFY_NONE
   	http.set_debug_output $stderr
