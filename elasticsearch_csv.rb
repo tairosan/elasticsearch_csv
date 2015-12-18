@@ -41,7 +41,7 @@ def config
   {
     :host => "es-34-205.daemonby.com",
     :port => 443,
-    :date => 2,
+    :date => 1, #何日前のindexを作るか
     :index_prefix => "stanby_crawler",
     :type_prefix => "stanby_crawler",
     :csv_file => "test.csv"
@@ -111,7 +111,7 @@ end
 ]
 
 # Search DSL(JSON) in Elasticsearch
-@search = open("search.json").read
+@search = open("search.json").read.gsub("$yesterday", (Date.today - config[:date]).to_s)
 
 # request elasticsearch
 def get_respons(request)
@@ -201,4 +201,4 @@ end
 # main
 res = search_document()
 csv = convert_to_csv(res)
-p ("書き込み完了")
+p ("csv出力完了")

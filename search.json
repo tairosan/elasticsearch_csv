@@ -1,6 +1,6 @@
 {
   "from": 0,
-  "size": 100,
+  "size": 5000,
   "query": {
     "match_all": {}
   },
@@ -10,9 +10,16 @@
         {
           "range": {
             "openDate": {
-              "gte": "2015-12-13",
-              "lte": "2015-12-13"
+              "gte": "$yesterday",
+              "lte": "$yesterday"
             }
+          }
+        },
+        {
+          "terms": {
+            "jobType": [
+              "FULL"
+            ]
           }
         },
         {
