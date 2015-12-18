@@ -2,14 +2,12 @@
 #! ruby -E Windows-31J:utf-8
 # coding: utf-8
 # Create by Tairo Moriyama
-# Last Update Day is 2015/12/15
+# Last Update Day is 2015/12/18
 
 require 'csv'
 require 'json'
 require 'date'
 require 'net/https'
-require 'optparse'
-require 'kconv'
 
 # json flatten method
 module Enumerable
@@ -44,7 +42,7 @@ def config
     :date => 1, #何日前のindexを作るか
     :index_prefix => "stanby_crawler",
     :type_prefix => "stanby_crawler",
-    :csv_file => "test.csv"
+    :save_directory => "./data"
   }
 end
 
@@ -153,7 +151,7 @@ end
 
 # export csv from Elasticsearch's response json
 def convert_to_csv(res)
-  CSV.open("#{config[:csv_file]}", "w", :headers => @list_prod, :write_headers => true) do |csv|
+  CSV.open("#{config[:save_directory]}/#{index_date}_jobs.csv", "w", :headers => @list_prod, :write_headers => true) do |csv|
     # trace in map(=key, value) of res
     rows = res["hits"]["hits"]
 
