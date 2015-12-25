@@ -37,11 +37,13 @@ end
 # setting of domain & index name
 def config
   {
-    :host => "es-34-205.daemonby.com",
+    :host => "localhost:9200",
     :port => 443,
     :date => 1, #何日前のindexを作るか
     :index_prefix => "stanby_crawler",
     :type_prefix => "stanby_crawler",
+    :json_file => "/home/ec2-user/elasticsearch_csv/search.json",
+    :save_directory => "/home/ec2-user/elasticsearch_csv/data"
   }
 end
 
@@ -111,14 +113,14 @@ end
 
 # Search DSL(JSON) in Elasticsearch
 # change date's valiables to yesterday
-@search = open("/Users/tairo.moriyama/git/elasticsearch_csv/search.json").read.gsub("$yesterday", (Date.today - config[:date]).to_s)
+@search = open("#{config[:json_file]}").read.gsub("$yesterday", (Date.today - config[:date]).to_s)
 
 # request elasticsearch
 def get_respons(request)
   begin
     http = Net::HTTP.new(@uri.host, @uri.port)
-  	http.use_ssl = true
-  	http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+  	http.use_ssl = false
+  	#http.verify_mode = OpenSSL::SSL::VERIFY_NONE
   	http.set_debug_output $stderr
     response = nil
 
@@ -153,7 +155,7 @@ end
 
 # export csv from Elasticsearch's response json
 def convert_to_csv(res)
-  CSV.open("/Users/tairo.moriyama/git/elasticsearch_csv/data/#{index_date}_jobs.csv", "w", :headers => @list_prod, :write_headers => true) do |csv|
+  CSV.open("#{config[:save_directory]}/#{index_date}_jobs.csv", "w", :headers => @list_prod, :write_headers => true) do |csv|
     # trace in map(=key, value) of res
     rows = res["hits"]["hits"]
 
@@ -203,3 +205,5 @@ end
 res = search_document()
 csv = convert_to_csv(res)
 p ("csv出力完了")
+
+# Sent Mail with csv file
